@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" defer></script>
     <title>Jon Doe's resume</title>
   </head>
 
-  <body id="fancy-body">
+  <body id="fancy-body" class="fancy-body">
     <h1 id="candidate-name">Jon Doe</h1>
 
     <section id="candidate-desired-role">
-      <h2>Talented Frontend Developer</h2>
+      <h2 id="candidate-desired-role">Talented Frontend Developer</h2>
       <img
         id="candidate-image"
         src="assets/avatars/fake_person.jpg"
@@ -23,7 +23,7 @@
 
     <section>
       <h2 id="about-me">About Me</h2>
-      <p id="candidate-bio">
+      <p id="candidate-bio" class="candidate-bio">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
         placeat eum quo ea consequuntur quae! Aliquam illum facere quaerat in
         similique obcaecati, voluptate rem, voluptatum explicabo odit
@@ -58,7 +58,7 @@
 
     <section>
       <h2 id="contacts">Contact Me</h2>
-      <table id="contacts-table">
+      <table id="contacts-table" class="contacts-table">
         <tr>
           <th>Discord</th>
           <td>Mentally_Unaware</td>
@@ -77,9 +77,9 @@
         <tr>
           <th>Email</th>
           <td>
-            <a target="_self" href="mailto:leorivera1211@outlook.com">
-              leorivera1211@outlook.com
-            </a>
+            <a href="mailto: leorivera1211@outlook.com"
+              >leorivera1211@outlook.com</a
+            >
           </td>
         </tr>
         <tr>
