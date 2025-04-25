@@ -38,9 +38,9 @@ This assignment should prove that a student is able to:
 - [x] Fork the project to your github account
 - [x] Clone the project to your computer
 - [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] Initialize playwright and install project packages
-  - [ ] Use `npm i` to install packages
-  - [ ] Use `npm run browser-install` to install the browser environment for testing
+- [x] Initialize playwright and install project packages
+  - [x] Use `npm i` to install packages
+  - [x] Use `npm run browser-install` to install the browser environment for testing
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
   - [ ] Use `npm run test` to run all tests in the terminal
@@ -76,7 +76,7 @@ All the tasks in the requirements are related to the index.html file! Consider "
 - [x] Add the section heading "Contact Me"
 - [x] Add the table of two columns and 4 rows. The first column for every row is the table header with the service name. The second column is for the value.
 - [x] Add Discord as a service and your discord's real username as a value to the table.
-- [ ] Add LinkedIn as a service and your linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
+- [x] Add LinkedIn as a service and your linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
 - [x] Add Email as a service and your real email as the value. Make it to be a link that starts the new email message app.
 - [x] Add Github as a service and use your real github username as a value. Make the value to be a link that leads to your github profile in a new browser tab.
 - [x] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p1-solved-mockup.png).
